@@ -7,21 +7,71 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		297F7A52317D9452F5AC9B44 /* Pods_AccedoTvTestAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 553BB4652E362BDEC2BAD8FB /* Pods_AccedoTvTestAppTests.framework */; };
+		3671B6522012EA5B0063BD93 /* BaseGameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3671B6512012EA5B0063BD93 /* BaseGameController.swift */; };
+		3671B6542012F66D0063BD93 /* HighScoreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3671B6532012F66D0063BD93 /* HighScoreController.swift */; };
+		3671B656201300840063BD93 /* ScoreCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3671B655201300840063BD93 /* ScoreCell.swift */; };
+		3671B658201311EE0063BD93 /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3671B657201311EE0063BD93 /* Score.swift */; };
+		3671B65A20131ACB0063BD93 /* UIColor+Themes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3671B65920131ACB0063BD93 /* UIColor+Themes.swift */; };
 		36B6DF4A201171B8007EEE02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B6DF49201171B8007EEE02 /* AppDelegate.swift */; };
-		36B6DF4C201171B8007EEE02 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B6DF4B201171B8007EEE02 /* ViewController.swift */; };
+		36B6DF4C201171B8007EEE02 /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B6DF4B201171B8007EEE02 /* GameController.swift */; };
 		36B6DF4F201171B8007EEE02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36B6DF4D201171B8007EEE02 /* Main.storyboard */; };
 		36B6DF51201171B8007EEE02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36B6DF50201171B8007EEE02 /* Assets.xcassets */; };
 		36B6DF54201171B8007EEE02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36B6DF52201171B8007EEE02 /* LaunchScreen.storyboard */; };
+		36B6DF5C2011875D007EEE02 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B6DF5B2011875D007EEE02 /* Game.swift */; };
+		36B6DF5E20118859007EEE02 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B6DF5D20118859007EEE02 /* Card.swift */; };
+		36B6DF602011BEDA007EEE02 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B6DF5F2011BEDA007EEE02 /* Extension.swift */; };
+		36BA93EF2015EBD500BE29D9 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36BA93EE2015EBD500BE29D9 /* HeaderView.swift */; };
+		36BA93F720160F4700BE29D9 /* GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36BA93F620160F4700BE29D9 /* GameTests.swift */; };
+		36BA94012016ADD700BE29D9 /* UIButton+Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36BA94002016ADD700BE29D9 /* UIButton+Animation.swift */; };
+		36BA94032016AE0A00BE29D9 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36BA94022016AE0A00BE29D9 /* UILabel+Extension.swift */; };
+		36BA94052016B08600BE29D9 /* UIFont+Themes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36BA94042016B08600BE29D9 /* UIFont+Themes.swift */; };
+		36BA940C20174C4200BE29D9 /* ScoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36BA940B20174C4200BE29D9 /* ScoreTests.swift */; };
+		36BA940E2017630C00BE29D9 /* CardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36BA940D2017630C00BE29D9 /* CardTests.swift */; };
+		B2B42F6990EDE5CBF07E93F1 /* Pods_AccedoTvTestApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74D2C3CFEDA781C428EEDF70 /* Pods_AccedoTvTestApp.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		36BA93F920160F4700BE29D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36B6DF3E201171B8007EEE02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36B6DF45201171B8007EEE02;
+			remoteInfo = AccedoTvTestApp;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		1BB6413D08FF2AFEE74EF4B0 /* Pods-AccedoTvTestAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccedoTvTestAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AccedoTvTestAppTests/Pods-AccedoTvTestAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		239787E5EF1533AE526CD445 /* Pods-AccedoTvTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccedoTvTestApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-AccedoTvTestApp/Pods-AccedoTvTestApp.release.xcconfig"; sourceTree = "<group>"; };
+		3671B6512012EA5B0063BD93 /* BaseGameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseGameController.swift; sourceTree = "<group>"; };
+		3671B6532012F66D0063BD93 /* HighScoreController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighScoreController.swift; sourceTree = "<group>"; };
+		3671B655201300840063BD93 /* ScoreCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreCell.swift; sourceTree = "<group>"; };
+		3671B657201311EE0063BD93 /* Score.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
+		3671B65920131ACB0063BD93 /* UIColor+Themes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Themes.swift"; sourceTree = "<group>"; };
 		36B6DF46201171B8007EEE02 /* AccedoTvTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AccedoTvTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36B6DF49201171B8007EEE02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		36B6DF4B201171B8007EEE02 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		36B6DF4B201171B8007EEE02 /* GameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
 		36B6DF4E201171B8007EEE02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		36B6DF50201171B8007EEE02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36B6DF53201171B8007EEE02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		36B6DF55201171B8007EEE02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36B6DF5B2011875D007EEE02 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		36B6DF5D20118859007EEE02 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		36B6DF5F2011BEDA007EEE02 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		36BA93EE2015EBD500BE29D9 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		36BA93F420160F4700BE29D9 /* AccedoTvTestAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccedoTvTestAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36BA93F620160F4700BE29D9 /* GameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTests.swift; sourceTree = "<group>"; };
+		36BA93F820160F4700BE29D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36BA94002016ADD700BE29D9 /* UIButton+Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Animation.swift"; sourceTree = "<group>"; };
+		36BA94022016AE0A00BE29D9 /* UILabel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
+		36BA94042016B08600BE29D9 /* UIFont+Themes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Themes.swift"; sourceTree = "<group>"; };
+		36BA940B20174C4200BE29D9 /* ScoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreTests.swift; sourceTree = "<group>"; };
+		36BA940D2017630C00BE29D9 /* CardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTests.swift; sourceTree = "<group>"; };
+		553BB4652E362BDEC2BAD8FB /* Pods_AccedoTvTestAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AccedoTvTestAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74D2C3CFEDA781C428EEDF70 /* Pods_AccedoTvTestApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AccedoTvTestApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94F740B59EA49C1F28908BDB /* Pods-AccedoTvTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccedoTvTestApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AccedoTvTestApp/Pods-AccedoTvTestApp.debug.xcconfig"; sourceTree = "<group>"; };
+		B013BE4BDD987850C9D511F4 /* Pods-AccedoTvTestAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccedoTvTestAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AccedoTvTestAppTests/Pods-AccedoTvTestAppTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +79,49 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2B42F6990EDE5CBF07E93F1 /* Pods_AccedoTvTestApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36BA93F120160F4700BE29D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				297F7A52317D9452F5AC9B44 /* Pods_AccedoTvTestAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B4ADB8BAAE135A98BE5C883 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74D2C3CFEDA781C428EEDF70 /* Pods_AccedoTvTestApp.framework */,
+				553BB4652E362BDEC2BAD8FB /* Pods_AccedoTvTestAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0D09C248BC47EA41D0DD6AF5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				94F740B59EA49C1F28908BDB /* Pods-AccedoTvTestApp.debug.xcconfig */,
+				239787E5EF1533AE526CD445 /* Pods-AccedoTvTestApp.release.xcconfig */,
+				1BB6413D08FF2AFEE74EF4B0 /* Pods-AccedoTvTestAppTests.debug.xcconfig */,
+				B013BE4BDD987850C9D511F4 /* Pods-AccedoTvTestAppTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		36B6DF3D201171B8007EEE02 = {
 			isa = PBXGroup;
 			children = (
 				36B6DF48201171B8007EEE02 /* AccedoTvTestApp */,
+				36BA93F520160F4700BE29D9 /* AccedoTvTestAppTests */,
 				36B6DF47201171B8007EEE02 /* Products */,
+				0D09C248BC47EA41D0DD6AF5 /* Pods */,
+				0B4ADB8BAAE135A98BE5C883 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -47,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				36B6DF46201171B8007EEE02 /* AccedoTvTestApp.app */,
+				36BA93F420160F4700BE29D9 /* AccedoTvTestAppTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,14 +137,77 @@
 		36B6DF48201171B8007EEE02 /* AccedoTvTestApp */ = {
 			isa = PBXGroup;
 			children = (
-				36B6DF49201171B8007EEE02 /* AppDelegate.swift */,
-				36B6DF4B201171B8007EEE02 /* ViewController.swift */,
+				36BA94062016B09600BE29D9 /* Extensions */,
+				36B6DF642012D55E007EEE02 /* Supporting Files */,
+				36B6DF632012D557007EEE02 /* Model */,
+				36B6DF622012D54F007EEE02 /* View */,
+				36B6DF612012D53F007EEE02 /* Controller */,
 				36B6DF4D201171B8007EEE02 /* Main.storyboard */,
 				36B6DF50201171B8007EEE02 /* Assets.xcassets */,
 				36B6DF52201171B8007EEE02 /* LaunchScreen.storyboard */,
 				36B6DF55201171B8007EEE02 /* Info.plist */,
 			);
 			path = AccedoTvTestApp;
+			sourceTree = "<group>";
+		};
+		36B6DF612012D53F007EEE02 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3671B6512012EA5B0063BD93 /* BaseGameController.swift */,
+				36B6DF4B201171B8007EEE02 /* GameController.swift */,
+				3671B6532012F66D0063BD93 /* HighScoreController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		36B6DF622012D54F007EEE02 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				36BA93EE2015EBD500BE29D9 /* HeaderView.swift */,
+				3671B655201300840063BD93 /* ScoreCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		36B6DF632012D557007EEE02 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				36B6DF5B2011875D007EEE02 /* Game.swift */,
+				36B6DF5D20118859007EEE02 /* Card.swift */,
+				3671B657201311EE0063BD93 /* Score.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		36B6DF642012D55E007EEE02 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				36B6DF49201171B8007EEE02 /* AppDelegate.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		36BA93F520160F4700BE29D9 /* AccedoTvTestAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				36BA93F620160F4700BE29D9 /* GameTests.swift */,
+				36BA940D2017630C00BE29D9 /* CardTests.swift */,
+				36BA940B20174C4200BE29D9 /* ScoreTests.swift */,
+				36BA93F820160F4700BE29D9 /* Info.plist */,
+			);
+			path = AccedoTvTestAppTests;
+			sourceTree = "<group>";
+		};
+		36BA94062016B09600BE29D9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				36B6DF5F2011BEDA007EEE02 /* Extension.swift */,
+				3671B65920131ACB0063BD93 /* UIColor+Themes.swift */,
+				36BA94042016B08600BE29D9 /* UIFont+Themes.swift */,
+				36BA94002016ADD700BE29D9 /* UIButton+Animation.swift */,
+				36BA94022016AE0A00BE29D9 /* UILabel+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +217,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 36B6DF58201171B8007EEE02 /* Build configuration list for PBXNativeTarget "AccedoTvTestApp" */;
 			buildPhases = (
+				AF63A90953956214636EAC05 /* [CP] Check Pods Manifest.lock */,
 				36B6DF42201171B8007EEE02 /* Sources */,
 				36B6DF43201171B8007EEE02 /* Frameworks */,
 				36B6DF44201171B8007EEE02 /* Resources */,
+				64A762F84C808F291107D879 /* [CP] Embed Pods Frameworks */,
+				E41DF67A60B00C3984701E1F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -83,6 +232,27 @@
 			productName = AccedoTvTestApp;
 			productReference = 36B6DF46201171B8007EEE02 /* AccedoTvTestApp.app */;
 			productType = "com.apple.product-type.application";
+		};
+		36BA93F320160F4700BE29D9 /* AccedoTvTestAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36BA93FB20160F4700BE29D9 /* Build configuration list for PBXNativeTarget "AccedoTvTestAppTests" */;
+			buildPhases = (
+				2B3DFBAE420F98CBD1148242 /* [CP] Check Pods Manifest.lock */,
+				36BA93F020160F4700BE29D9 /* Sources */,
+				36BA93F120160F4700BE29D9 /* Frameworks */,
+				36BA93F220160F4700BE29D9 /* Resources */,
+				F252623FA47464AB1268BCC4 /* [CP] Embed Pods Frameworks */,
+				91454DCA0668D5CE01E98918 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36BA93FA20160F4700BE29D9 /* PBXTargetDependency */,
+			);
+			name = AccedoTvTestAppTests;
+			productName = AccedoTvTestAppTests;
+			productReference = 36BA93F420160F4700BE29D9 /* AccedoTvTestAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -97,6 +267,11 @@
 					36B6DF45201171B8007EEE02 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+					};
+					36BA93F320160F4700BE29D9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 36B6DF45201171B8007EEE02;
 					};
 				};
 			};
@@ -114,6 +289,7 @@
 			projectRoot = "";
 			targets = (
 				36B6DF45201171B8007EEE02 /* AccedoTvTestApp */,
+				36BA93F320160F4700BE29D9 /* AccedoTvTestAppTests */,
 			);
 		};
 /* End PBXProject section */
@@ -129,19 +305,169 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		36BA93F220160F4700BE29D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B3DFBAE420F98CBD1148242 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AccedoTvTestAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64A762F84C808F291107D879 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AccedoTvTestApp/Pods-AccedoTvTestApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AccedoTvTestApp/Pods-AccedoTvTestApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91454DCA0668D5CE01E98918 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AccedoTvTestAppTests/Pods-AccedoTvTestAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF63A90953956214636EAC05 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AccedoTvTestApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E41DF67A60B00C3984701E1F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AccedoTvTestApp/Pods-AccedoTvTestApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F252623FA47464AB1268BCC4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AccedoTvTestAppTests/Pods-AccedoTvTestAppTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AccedoTvTestAppTests/Pods-AccedoTvTestAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		36B6DF42201171B8007EEE02 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36B6DF4C201171B8007EEE02 /* ViewController.swift in Sources */,
+				36BA94052016B08600BE29D9 /* UIFont+Themes.swift in Sources */,
+				36B6DF602011BEDA007EEE02 /* Extension.swift in Sources */,
+				36B6DF4C201171B8007EEE02 /* GameController.swift in Sources */,
+				36B6DF5C2011875D007EEE02 /* Game.swift in Sources */,
 				36B6DF4A201171B8007EEE02 /* AppDelegate.swift in Sources */,
+				36BA94012016ADD700BE29D9 /* UIButton+Animation.swift in Sources */,
+				3671B6522012EA5B0063BD93 /* BaseGameController.swift in Sources */,
+				3671B6542012F66D0063BD93 /* HighScoreController.swift in Sources */,
+				3671B656201300840063BD93 /* ScoreCell.swift in Sources */,
+				36BA93EF2015EBD500BE29D9 /* HeaderView.swift in Sources */,
+				3671B65A20131ACB0063BD93 /* UIColor+Themes.swift in Sources */,
+				3671B658201311EE0063BD93 /* Score.swift in Sources */,
+				36BA94032016AE0A00BE29D9 /* UILabel+Extension.swift in Sources */,
+				36B6DF5E20118859007EEE02 /* Card.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36BA93F020160F4700BE29D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36BA940E2017630C00BE29D9 /* CardTests.swift in Sources */,
+				36BA940C20174C4200BE29D9 /* ScoreTests.swift in Sources */,
+				36BA93F720160F4700BE29D9 /* GameTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36BA93FA20160F4700BE29D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36B6DF45201171B8007EEE02 /* AccedoTvTestApp */;
+			targetProxy = 36BA93F920160F4700BE29D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		36B6DF4D201171B8007EEE02 /* Main.storyboard */ = {
@@ -272,12 +598,16 @@
 		};
 		36B6DF59201171B8007EEE02 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94F740B59EA49C1F28908BDB /* Pods-AccedoTvTestApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D25NK8Q6YP;
 				INFOPLIST_FILE = AccedoTvTestApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = bogartpi.AccedoTvTestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -287,16 +617,54 @@
 		};
 		36B6DF5A201171B8007EEE02 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 239787E5EF1533AE526CD445 /* Pods-AccedoTvTestApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D25NK8Q6YP;
 				INFOPLIST_FILE = AccedoTvTestApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = bogartpi.AccedoTvTestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		36BA93FC20160F4700BE29D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BB6413D08FF2AFEE74EF4B0 /* Pods-AccedoTvTestAppTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D25NK8Q6YP;
+				INFOPLIST_FILE = AccedoTvTestAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bogartpi.AccedoTvTestAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AccedoTvTestApp.app/AccedoTvTestApp";
+			};
+			name = Debug;
+		};
+		36BA93FD20160F4700BE29D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B013BE4BDD987850C9D511F4 /* Pods-AccedoTvTestAppTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D25NK8Q6YP;
+				INFOPLIST_FILE = AccedoTvTestAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bogartpi.AccedoTvTestAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AccedoTvTestApp.app/AccedoTvTestApp";
 			};
 			name = Release;
 		};
@@ -317,6 +685,15 @@
 			buildConfigurations = (
 				36B6DF59201171B8007EEE02 /* Debug */,
 				36B6DF5A201171B8007EEE02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36BA93FB20160F4700BE29D9 /* Build configuration list for PBXNativeTarget "AccedoTvTestAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36BA93FC20160F4700BE29D9 /* Debug */,
+				36BA93FD20160F4700BE29D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

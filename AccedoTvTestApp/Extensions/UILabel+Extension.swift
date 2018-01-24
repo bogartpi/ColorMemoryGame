@@ -14,22 +14,12 @@ extension UILabel {
      Convenient initializer of UILabel
      */
     
-    public convenience init(title: String,
-                            font: UIFont,
-                            textColor: UIColor,
-                            align: NSTextAlignment) {
+    public convenience init(title: String = String(), font: UIFont,
+                            color: UIColor, align: NSTextAlignment = .left) {
         self.init()
+        self.text = title
         self.font = font
-        self.textColor = textColor
+        self.textColor = color
         self.textAlignment = align
     }
 }
-
-let scoreTitle: UILabel = {
-    let label = UILabel()
-    label.text = "Score"
-    label.font = UIFont(name: "AvenirNext-Bold", size: 20)
-    label.textColor = UIColor.customPurpleColor
-    label.textAlignment = .right
-    return label
-}()

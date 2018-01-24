@@ -7,29 +7,33 @@
 //
 
 import XCTest
+@testable import AccedoTvTestApp
 
 class CardTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        
+    }
+    
+    func testCardInitState() {
+        let card = Card()
+        
+        // Expect card is facedup and ismatched equal to false
+        XCTAssertEqual(card.isFacedUp, false)
+        XCTAssertEqual(card.isMatched, false)
+    }
+    
+    func test() {
+        let card1Id = Card.getUniqueID()
+        let card2Id = Card.getUniqueID()
+        
+        // Expect that each new card get a uniqie Id
+        XCTAssertNotEqual(card1Id, card2Id)
     }
     
     override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
         super.tearDown()
-    }
-    
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-    
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
     }
     
 }

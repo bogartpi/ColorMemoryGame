@@ -8,16 +8,22 @@
 
 import UIKit
 
-class BaseController: UIViewController {
-
+class BaseGameController: UIViewController {
+    
+    // MARK: - View Life Cycle
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "0"
         setLogo()
         setHighScoreBarButton()
-        setNavBar()
+        setNavBar(largeTitle: false)
     }
 
+    /**
+        Creates and sets a button as left bar button item
+     */
+    
     private func setLogo() {
         let button = UIButton(type: .custom)
         button.setImage(#imageLiteral(resourceName: "logo"), for: .normal)
@@ -27,11 +33,15 @@ class BaseController: UIViewController {
         self.navigationItem.leftBarButtonItem = leftBarButton
     }
     
+    /**
+     Creates and sets a button as right bar button item
+     */
+    
     private func setHighScoreBarButton() {
         let button = UIButton(type: .custom)
         button.setImage(#imageLiteral(resourceName: "high_score"), for: .normal)
         button.addTarget(self, action: #selector(highScoreButtonPressed(_:)), for: .touchUpInside)
-        button.frame = CGRect(x: 0, y: 0, width: 60, height: 28)
+        button.frame = CGRect(x: 0, y: 0, width: 30, height: 30)
         let rightBarButton = UIBarButtonItem(customView: button)
         self.navigationItem.rightBarButtonItem = rightBarButton
     }

@@ -14,8 +14,8 @@ class Game {
     
     var whenOneCardIsFaceUpIndex: Int? {
         get {
-            //Look at the all cards and see if you find only one that's face up
-            //If so, return it, else return nil
+            /* Go through all cards and check if there is only one card that's face up
+               If so, return it, else return nil */
             var matchIndex: Int?
             for index in cards.indices {
                 if cards[index].isFacedUp {
@@ -30,11 +30,16 @@ class Game {
         }
         
         set {
-            //Turn all the cards face down except the card at index newValue
+            // Turn all the cards face down except the card at index newValue
             for index in cards.indices {
                 cards[index].isFacedUp = (index == newValue)
             }
         }
+    }
+    
+    func resetItem(at index: Int) {
+        cards[index].isFacedUp = false
+        cards[index].isMatched = false
     }
     
     func pickCard(at index: Int) {
@@ -57,6 +62,7 @@ class Game {
             let card = Card()
             cards += [card, card]
         }
-        // TODO: Shuffle the cards
+        
+        cards.shuffle()
     }
 }

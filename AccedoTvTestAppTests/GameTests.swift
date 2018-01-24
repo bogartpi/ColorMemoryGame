@@ -9,25 +9,30 @@
 import XCTest
 @testable import AccedoTvTestApp
 
-class AccedoTvTestAppTests: XCTestCase {
+class GameTests: XCTestCase {
     
     var gameUnderTest: Game!
     
     override func setUp() {
         super.setUp()
-        gameUnderTest = Game(numberOfPairsOfCards: 8)
+        gameUnderTest = Game(numberOfPairsOfCards: 4)
     }
     
     func testReturnAllCardsOnBoard() {
         let cardsArray = gameUnderTest.cards
-        XCTAssertEqual(cardsArray.count, 16, "Game returns wrong number of cards")
+        
+        // Expect that the number of initialized cards equal to 8 cards
+        XCTAssertEqual(cardsArray.count, 8, "Game returns wrong number of cards")
     }
     
     func testInitialCardState() {
         let cardsArray = gameUnderTest.cards
+        
+        // Expect that all cards in array have been initialized with correct card state
         for card in cardsArray {
             XCTAssertEqual(card.isMatched, false, "Initial card state is wrong")
             XCTAssertEqual(card.isFacedUp, false, "Initial card state is wrong")
+            XCTAssertNotEqual(card.identifier, nil)
         }
     }
     
