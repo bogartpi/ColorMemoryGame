@@ -13,10 +13,10 @@ To be able to run the app on simulator you need to:
 2. Navigate to the project
 3. run 'pod install'
 
-If you still can't run the app the check the scheme of the app. To do so:
+If you still can't run the app then check the scheme of the app. To do so:
 
 1. Open the project with .xcworkspace extension
 2. At the top near a 'stop' button you need to edit scheme
 3. When the window pop up go to Run -> Info -> Change Excutable to AccedoTvTestApp.app
-4. Close the window and build a project. 
+4. Close the window and build a project.
 
